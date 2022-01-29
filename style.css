@@ -1,0 +1,345 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 80%;
+    height: 80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+nav
+{
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    color: gray;
+}
+nav .search
+{
+    padding: 2px 2px 0 2px;
+    border: 1px solid gray;
+}
+
+nav h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar
+{
+    height: 50px;
+    border: none;
+}
+
+header
+{
+    background-color: rgb(97, 97, 97);
+    height: 350px;
+    width: 80%; 
+    margin-left:150px; 
+    border-radius: 3px;
+}
+header .content
+{
+    width: 60%;
+    height: 100%;    
+    display: block;
+}
+
+header .content h1{
+    padding: 40px 0 0 60px;
+    font-size: 42px;
+    color: #fff;
+    font-style: italic;
+}
+
+header .content p{
+    width: 70%;  
+    padding: 10px 0 0 60px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+
+header .content a
+{
+    font-size: 19px;
+    text-decoration: none;
+    padding: 60px;
+    color: #fff;
+}
+
+.main-cart
+{
+    height: 300px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left:150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-cart .cart{
+    width: 48%;
+    display: flex;
+    border: 1px groove gray;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+
+.main-cart .cart .content
+{
+    width: 60%;
+}
+
+
+
+.main-cart .cart .content h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+} 
+
+.main-cart .cart h1{
+    padding-left: 30px;
+    font-size: 40px;
+    padding-top: 10px;
+} 
+
+.main-cart .cart h6{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.main-cart .cart p{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+
+.main-cart .cart .thumbnail
+{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(155, 155, 155);
+}
+
+.main-cart .cart .thumbnail h2
+{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.main-cart .cart a
+{
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.cart .content .cart1-heading
+{
+    color: blue;
+}
+
+.cart .content .cart2-heading
+{
+    color: red;
+}
+
+.blog
+{
+    width: 81%;
+    /* background-color: blanchedalmond; */
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog .blog-content
+{
+    /* background-color: blue; */
+    width: 70%;
+    border-radius: 3px;
+
+}
+
+.blog .blog-content h2{
+    font-style: italic;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog .blog-content h1
+{
+    padding: 20px 0 0 0;
+}
+
+.blog .blog-content p
+{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog .blog-content p a
+{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.blog .blog-content p span
+{
+    color: blue;
+}
+.blog .blog-content h3
+{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.blog .blog-content h4
+{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.blog .blog-content ul
+{
+    padding-left: 40px;
+}
+
+.blog .blog-content ul li
+{
+    font-size: 21px;
+}
+
+.blog .blog-content ol
+{
+    padding-left: 40px;
+}
+
+.blog .blog-content ol li
+{
+    font-size: 21px;
+}
+
+button
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+button .active
+{
+    border: 2px solid blue;
+}
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////Blog blog-title//////////////////////////////////////////////////////////////////////// */
+
+.blog .blog-title
+{
+    /* background-color: rgb(194, 137, 137); */
+    width: 25%;
+}
+
+.blog .blog-title .about-us
+{
+    border: 1px solid gray;
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(133, 130, 130, 0.596);
+    border-radius: 3px;
+}
+
+.blog .blog-title .about-us h3{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.blog .blog-title .about-us p{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.archives
+{
+    padding: 15px;
+
+}
+.archives h1{
+    
+    font-style: italic;
+    font-size: 36px;
+}
+
+.archives ul li
+{
+    list-style: none;
+    padding: 5px;
+}
+.archives a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+}
+
+footer
+{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+}
+
+footer .footer
+{
+    padding-top: 50px;
+}
+
+footer .footer p{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+footer .footer p span
+{
+    color: rgba(0, 0, 250, 0.808);
+}
+
+footer .footer a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
